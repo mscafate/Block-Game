@@ -1,9 +1,7 @@
 /**
  * File: ObstacleCourse.java
- * Author: Delta Group
+ * Author: Michael Scafate
  * Purpose: Obstacle course game.
- *
- * DELTA GROUP Obstacle Course
  */
 import javax.swing.*;
 import java.awt.*;
