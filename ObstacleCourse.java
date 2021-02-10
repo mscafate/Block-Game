@@ -1,5 +1,5 @@
 /**
- * File: Obstacles.java
+ * File: ObstacleCourse.java
  * Author: Delta Group
  * Purpose: Obstacle course game.
  *
@@ -11,7 +11,7 @@ import java.awt.*;
 /**
  * The Obstacles class is the main application frame.
  */
-public class Obstacles extends JFrame {
+public class ObstacleCourse extends JFrame {
     //  Application Defaults
     public static String AppName = "Obstacles";
     public static final int APP_WIDTH = 800, APP_HEIGHT = 800;
@@ -20,7 +20,7 @@ public class Obstacles extends JFrame {
     public GameBoard gameBoard;
 
     //  Constructor
-    public Obstacles () {
+    public ObstacleCourse () {
         super(AppName);
 
         //  Setup the application display
@@ -43,6 +43,6 @@ public class Obstacles extends JFrame {
 
     //  Main Entry Point.
     static public void main (String[] args) {
-        new Obstacles();
+        new ObstacleCourse();
     }
 }
